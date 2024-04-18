@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label, input, textarea, button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#outputContainer {
+  margin-top: 30px;
+}
+
+#universityList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#universityList li {
+  margin-bottom: 10px;
+}
